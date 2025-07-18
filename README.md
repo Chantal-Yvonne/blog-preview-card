@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshot
 
 ![Screenshot of the finished Blog preview card ](./assets/images/desktop-1440px.png)
-![Screenshot of the finished Blog preview card ](./assets/images/mobile-375px.png)
+![Screenshot of the finished Blog preview card ](./assets/images/mobile-preview.png)
 
 ### Links
 
@@ -35,17 +35,17 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- media query for at mobile 375px
+- Reponsiveness without media query for mobile 375px
 
 
 ### What I learned
 - How to follow  design system(colors, fonts,spacing) using  style guide.
 - How to center element vertically nd horizontally using flexbox.
-- How to use responive deign techniques
+- How to use responive design techniques without using media queries
 - How to deploy  project using Github Pages.
 
 ### Continued development
-- I want to strenghten my knowledge on responsive deign techniques.
+- I want to strenghten my knowledge on responsive design techniques.
 
 ## Author
 

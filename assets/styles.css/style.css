@@ -18,82 +18,83 @@
     --Gray-950: #111111;
 }
 
-/* - Weights: 500, 800 */
-
+/* ==========CONTAINER ===========*/
 .main-container {
     max-width: 90rem;
     width: 100%;
     height: 100vh;
     background-color: var(--yellow);
-    padding: 4.06rem;
+    padding: 4rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
-
+/* ==========BLOG CARD ===========*/
 .blog-card {
-    width: 24rem;
-    height: 31rem;
+    width: 100%;
+    max-width: 24rem;
     background-color: var(--white);
-    /* margin: 0 auto; */
     padding: 1.5rem;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     border: 1px solid var(--Gray-950);
     box-shadow: 10px 10px 0 0 black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
 }
 
 .blog-card-img img {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 100%;
-    height: 100%;
 }
 
 .blog-card-info {
-    padding: 1.5rem 0;
+    padding: 0 0 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .blog-card-info h1 {
-    font-size: 0.87rem;
+    font-size: 0.875rem;
     background-color: var(--yellow);
-    border-radius: 4px;
+    border-radius: 0.25rem;
     padding: 0.25rem 0.75rem;
-    width: 5rem;
+    width: fit-content;
     color: var(--Gray-950);
-    margin: 0 0 0.75rem ;
+    margin: 0 0 0.75rem;
+}
 
+.blog-card-info h2 {
+    font-size:clamp(18px, 1.8vw,24px);
+    font-weight: 800;
+    margin: 0.875rem 0;
+    transition: color 0.3s;
 }
 
 .blog-card-info h2:hover {
     color: var(--yellow);
-    cursor: url(../images/Pointer.png),auto;
-
+    cursor: url(../images/Pointer.png), auto;
 }
 
 .blog-card-info .date {
     font-weight: 500;
-    font-size: 0.87rem;
+    font-size: 0.875rem;
     color: var(--Gray-950);
 
 }
 
-.blog-card-info h2 {
-    font-weight: 800;
-    margin: 0.75rem 0;
-}
-
 .blog-card-info p {
-    font-size: 1rem;
+    font-size: clamp(12px, 1.4vw,16px) ;
     color: var(--Gray-500);
+    max-width: 19.4rem;
     width: 100%;
 }
 
 .blog-card-profile {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
 }
 
 .blog-card-profile img {
@@ -102,35 +103,6 @@
 }
 
 .blog-card-profile p {
-    font-size: 0.87rem;
+    font-size: 0.875rem;
     font-weight: 800;
 }
-
-
-
-
-
-@media (max-width:375px) {
-
-.blog-card-info h2 {
-      font-size: 0.87rem;
- 
-
-}
-.blog-card-info p {
-    font-size: 0.6rem;
-    width:100%;
-}
-
-.blog-card {
-    height: 65%;
-    
-}
-
-
-.blog-card-info .date {
-    font-size: 0.5rem;
-
-}
-}
-
